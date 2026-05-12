@@ -19,6 +19,13 @@
 </p>
 
 <p align="center">
+  <a href="https://ai-care-match.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-ai--care--match.vercel.app-4F46E5?style=for-the-badge&logoColor=white" alt="Live Demo" />
+  </a>
+  <img src="https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
+
+<p align="center">
   <a href="#-features">Features</a> •
   <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-quick-start">Quick Start</a> •
