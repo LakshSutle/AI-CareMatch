@@ -1,0 +1,12 @@
+{
+  "name": "ai-carematch-functions",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "firebase-functions": "^6.0.1",
+    "openai": "^6.1.0"
+  }
+}

@@ -1,0 +1,88 @@
+// Demo patients — 6 patients (2 per category) for project showcase
+const ptPhoto = (name) => `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=200&background=f59e0b&color=fff&bold=true&format=svg`;
+
+export const patients = [
+  // ───────────── 👶 CHILD CARE PATIENTS (2) ─────────────
+  {
+    uniqueId: 'PT-20001',
+    name: 'Ananya Reddy',
+    age: 32,
+    role: 'patient',
+    category: 'child',
+    photo: ptPhoto('Ananya Reddy'),
+    location: { name: 'Banjara Hills', lat: 17.4156, lng: 78.4347 },
+    careNeeds: 'ADHD support for 7-year-old daughter. Needs structured after-school care with behavioral support.',
+    dependentName: 'Diya Reddy',
+    dependentAge: 7,
+    emergencyContact: '+91 98765 43210',
+  },
+  {
+    uniqueId: 'PT-20002',
+    name: 'Deepak Menon',
+    age: 29,
+    role: 'patient',
+    category: 'child',
+    photo: ptPhoto('Deepak Menon'),
+    location: { name: 'Ameerpet', lat: 17.4375, lng: 78.4483 },
+    careNeeds: 'Newborn night care. First-time parents need support with overnight feeding and soothing.',
+    dependentName: 'Baby Menon',
+    dependentAge: 0,
+    emergencyContact: '+91 98765 43211',
+  },
+
+  // ───────────── 🧑 HUMAN / ELDER CARE PATIENTS (2) ─────────────
+  {
+    uniqueId: 'PT-20003',
+    name: 'Rajesh Kumar',
+    age: 45,
+    role: 'patient',
+    category: 'human',
+    photo: ptPhoto('Rajesh Kumar'),
+    location: { name: 'Madhapur', lat: 17.4486, lng: 78.3908 },
+    careNeeds: 'Post-surgery recovery for father (72). Hip replacement — needs physiotherapy assist and daily monitoring.',
+    dependentName: 'Ramaiah Kumar',
+    dependentAge: 72,
+    emergencyContact: '+91 98765 43212',
+  },
+  {
+    uniqueId: 'PT-20004',
+    name: 'Padma Srinivas',
+    age: 55,
+    role: 'patient',
+    category: 'human',
+    photo: ptPhoto('Padma Srinivas'),
+    location: { name: 'Begumpet', lat: 17.4445, lng: 78.4676 },
+    careNeeds: 'Dementia care for mother (78). Needs cognitive exercises, companionship, and night monitoring.',
+    dependentName: 'Sarojini Devi',
+    dependentAge: 78,
+    emergencyContact: '+91 98765 43213',
+  },
+
+  // ───────────── 🐾 PET CARE PATIENTS (2) ─────────────
+  {
+    uniqueId: 'PT-20005',
+    name: 'Meera Sharma',
+    age: 28,
+    role: 'patient',
+    category: 'pet',
+    photo: ptPhoto('Meera Sharma'),
+    location: { name: 'Gachibowli', lat: 17.4401, lng: 78.3489 },
+    careNeeds: 'German Shepherd (3yr) with separation anxiety. Needs behavioral training and daily walks.',
+    dependentName: 'Bruno (GSD)',
+    dependentAge: 3,
+    emergencyContact: '+91 98765 43214',
+  },
+  {
+    uniqueId: 'PT-20006',
+    name: 'Arjun Malhotra',
+    age: 35,
+    role: 'patient',
+    category: 'pet',
+    photo: ptPhoto('Arjun Malhotra'),
+    location: { name: 'Hitech City', lat: 17.4435, lng: 78.3772 },
+    careNeeds: 'Persian cat (2yr) with dietary issues. Needs specialized feline nutrition and health monitoring.',
+    dependentName: 'Mimi (Persian)',
+    dependentAge: 2,
+    emergencyContact: '+91 98765 43215',
+  },
+];
