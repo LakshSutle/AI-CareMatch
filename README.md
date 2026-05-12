@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/banner.png" alt="AI CareMatch Banner" width="100%" />
+  <img src="public/logo.png" alt="AI CareMatch Logo" width="280" />
 </p>
 
 <h1 align="center">AI CareMatch</h1>
