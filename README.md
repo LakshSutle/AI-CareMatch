@@ -162,8 +162,8 @@ India has **50 million+ families** actively searching for caregivers — for chi
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ai-carematch.git
-cd ai-carematch
+git clone https://github.com/LakshSutle/AI-CareMatch.git
+cd AI-CareMatch
 
 # Install frontend dependencies
 npm install
